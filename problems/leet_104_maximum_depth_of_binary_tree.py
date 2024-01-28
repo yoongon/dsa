@@ -25,7 +25,7 @@ def main():
     """
     node1 = TreeNode(1)
     node2 = TreeNode(2)
-    node3 = TreeNode(4)
+    node3 = TreeNode(3)
     node4 = TreeNode(4)
 
     node1.left = node2
@@ -33,7 +33,6 @@ def main():
     node3.left = node4
 
     sol = Solution()
-    sol.max_depth(node1)
     print(3 == sol.max_depth(node1))
 
 
