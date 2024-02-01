@@ -211,3 +211,5 @@ class Solution:
     def is_valid_bst(self, root) -> bool:
         return self.check(root, -math.inf, math.inf)
 ```
+## 3.3 More Problems
+please watch the tutorial videos
