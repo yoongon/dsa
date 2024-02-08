@@ -24,10 +24,6 @@ class Solution:
                                 women.add(nn)
                             if n in women:
                                 men.add(nn)
-                            if n in men:
-                                women.add(nn)
-                            if n in women:
-                                men.add(nn)
                             nq.append(nn)
                     q = nq
         return True
